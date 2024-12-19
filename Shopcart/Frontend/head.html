@@ -1,0 +1,122 @@
+<!DOCTYPE html> 
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Shop Cart</title>
+  <link rel="stylesheet" href="head.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+  
+  <header>
+    
+    <div class="header-container">
+        <div class="shopcart"><img src="images/bag.jpg" alt="Bag Logo" class="logo" width="30px" height="30px">
+           shop<span>cart</span></div>
+      <div class="user-profile">
+        <i class="fas fa-user-circle user-icon"></i> Hendry James
+      </div>
+    </div>
+    <div class="header-container">
+      <div class="location">
+        <i class="fas fa-map-marker-alt"></i> Delhi, 110110
+      </div>
+      <div class="search-container">
+        <input type="text" class="search-box" placeholder="Search">
+        <button class="search-btn">
+          <i class="fa fa-search"></i>
+        </button>
+      </div> 
+    </div>
+  
+    <nav>
+      <ul>
+        <li>Fresh</li><li>Today's Deals</li><li>Mobiles</li><li>Gift Cards</li>
+        <li>Clothing</li><li>Health</li><li>Pet corner</li><li>Books</li>
+        <li>Beauty</li><li>Kitchen</li><li>Bed Room</li><li>Sport</li><li>Bags</li>
+      </ul>
+    </nav>
+  </header>
+  <div class="cart-container">
+    <div class="cart-left1">
+      
+      <div class="product-details">
+        <div class="product-info">
+          <div class="product-info-details">
+            <span class="brand">
+              <img src="images/one.jpg" alt="OnePlus Logo" class="oneplus-logo">
+            </span>
+
+            <p id="product-description">OnePlus Bullets Z2 Bluetooth Wireless in Earphones with Mics, Bombastic Bass - 12.4 mm Drivers, 10 Mins Charge - 20 Hrs Music, 30 Hrs Battery Life, IP55 Dust and Water Resistant (Magico Black)
+           </p> 
+
+            <div class="rating">⭐⭐⭐⭐⭐ 4.5</div><br>
+
+            <div class="image-container">
+              <img id="product-image" src="images/headphone.jpg" alt="OnePlus Earphones" width="300px" height="300px">
+            </div><br>
+
+            <div class="thumbnail-container">
+              <img src="images/headphone.jpg" alt="Thumbnail 1" class="thumbnail" onclick="changeImage('headphone.jpg')">
+              <img src="images/1.jpg" alt="Thumbnail 1" class="thumbnail" onclick="changeImage('image1.jpg')">
+              <img src="images/2.jpg" alt="Thumbnail 2" class="thumbnail" onclick="changeImage('image2.jpg')">
+              <img src="images/3.jpg" alt="Thumbnail 3" class="thumbnail" onclick="changeImage('image3.jpg')">
+              <img src="images/4.jpg" alt="Thumbnail 4" class="thumbnail" onclick="changeImage('image4.jpg')">
+            </div><br>
+
+            <div class="product-controls">
+              <div class="color-selector">
+                Color: <strong>Black</strong><br><br>
+                <button class="color-btn1 selected"></button>
+                <button class="color-btn2 selected"></button>
+                <button class="color-btn3 selected"></button>
+                <button class="color-btn4 selected"></button>
+              </div>
+
+              <div class="quantity">
+                <button class="qty-btn">-</button>
+                <span class="qty-value">1</span>
+                <button class="qty-btn">+</button>
+              </div>
+              <a href="addcart.html"><button class="add-to-cart-btn"><strong>Add to Cart</strong></button></a>
+            </div>
+
+            <div class="product">
+              <div class="actions">
+                <span><i class="fas fa-exchange-alt"></i> Compare</span>
+                <span><i class="fas fa-question-circle"></i> Ask a question</span>
+                <span><i class="fas fa-share-alt"></i> Share</span>
+              </div>
+
+              <div class="delivery-info">
+                <p><strong><i class="fas fa-truck"></i> Estimated Delivery:</strong> Jul 30 - Aug 03</p>
+                <p><strong><i class="fas fa-calendar-day"></i> Free Shipping & Returns:</strong> On all orders over $75</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <footer class="footer">
+    <div class="footer-container">
+        <div class="footer-logo">
+          <div class="shopcart" style="color: white;">shop<span>cart</span></div>
+        </div>
+        <nav class="footer-nav">
+            <a href="#"><strong>About us</strong></a>
+            <a href="#"><strong>Contact</strong></a>
+            <a href="#"><strong>Help</strong></a>
+        </nav>
+        <div class="footer-lang">
+            <img src="https://upload.wikimedia.org/wikipedia/en/4/41/Flag_of_India.svg" alt="India Flag" class="flag-icon">
+            <select name="language" id="language" class="language-select">
+                <option value="en"><strong>English</strong></option>
+            </select>
+        </div>
+    </div>
+</footer>
+  <script src="head.js"></script>
+</body>
+</html>

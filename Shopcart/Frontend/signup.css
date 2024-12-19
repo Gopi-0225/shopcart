@@ -1,0 +1,103 @@
+
+body {
+  font-family: Calibri, sans-serif; 
+  background-color: #E5E4E2;
+  padding: 0;
+  margin: 0;
+}
+
+.container {
+  background-color: #fff;
+  border-radius: 15px;
+  width: 600px;
+  margin: 100px auto;
+  padding: 30px;
+  text-align: center;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3),
+  0 -2px 5px transparent; 
+}
+.container h1 {
+    font-family: Calibri, sans-serif; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+.shopcart{
+  font-size: 45px;
+  font-weight: 600;
+  color: #000;
+  gap: 0px;
+}
+.shopcart span{
+  font-weight: 300;
+  gap: 0px;
+}
+.container .logo {
+    width: 50px;
+    height: auto;
+    margin-right: 10px; 
+}
+h3 {
+  margin-bottom: 20px;
+  color: #333;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-weight: bold;
+}
+.form-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+  }
+input[type="text"], input[type="email"], input[type="password"] , input[type="Confirm Password"]{
+  width: 100%;
+  padding: 10px;
+  font-family: calibri, sans-serif;
+  margin: 10px 0;
+  border: 1px solid #ccc;
+  border-radius: 15px;
+  box-sizing: border-box;
+  background-color: #E5E4E2;
+}
+.container input::placeholder {
+    color: black; 
+}
+
+button {
+  font-family: Calibri, sans-serif; 
+  background-color: #ff9900;
+  color: black;
+  font-weight: bold;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 15px;
+  cursor: pointer;
+  font-size: 16px;
+  width: 100%;
+}
+
+button:hover {
+  background-color: #f48024;
+}
+
+.signup {
+  margin-top: 30px;
+}
+
+.signup a {
+  color: #ff9900;
+  text-decoration: none;
+  font-family: Calibri, sans-serif; 
+}
+
+.signup a:hover {
+  text-decoration: underline;
+}

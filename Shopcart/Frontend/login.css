@@ -1,0 +1,109 @@
+h3{
+    text-align: center;
+}
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    gap: 0;
+    height: 100vh;
+    background-color: #E5E4E2;
+}
+
+
+.image-container img {
+    width: 100%;
+    max-width: 400px;
+    height: auto;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+    border-top-left-radius: 15px; 
+    border-bottom-left-radius: 15px; 
+}
+
+
+.form-container {
+    font-family: Calibri, sans-serif; 
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(229, 228, 226, 0.5); 
+    border: 2px solid #ccc;
+    width: 100%;
+    max-width: 400px;
+}
+.form-container h2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+.shopcart{
+    font-size: 45px;
+    font-weight: 600;
+    color: #000;
+    gap: 0px;
+}
+.shopcart span{
+    font-weight: 300;
+    gap: 0px;
+}
+.form-container .logo {
+    width: 50px; 
+    height: auto;
+    margin-right: 10px; 
+}
+
+.form-container input {
+    width: 95%;
+    height: auto;
+    font-family: Calibri, sans-serif;
+    justify-content: center;
+    padding: 10px;
+    background-color:#E5E4E2;
+    margin-bottom: 15px;
+    border-radius: 15px;
+    border: 1px solid #ccc;
+    box-shadow: 0 4px 8px rgba(229, 228, 226, 0.5); 
+    font-size: 16px;
+}
+
+.form-container input::placeholder {
+    color: black; 
+}
+
+.form-container button {
+    width: 100%;
+    padding: 10px;
+    font-weight: bold;
+    font-family: Calibri, sans-serif; 
+    background-color: #ff9900;
+    color: black;
+    border: none;
+    border-radius: 15px; 
+    font-size: 16px;
+    cursor: pointer;
+    box-shadow: 0 4px 8px rgba(229, 228, 226, 0.5); 
+    transition: background-color 0.3s ease;
+}
+
+
+.form-container button:hover {
+    background-color: #ff9900;
+}
+
+
+.Register p {
+    text-align: center;
+    font-size: 14px;
+}
+
+.Register a {
+    color: #ff9900;
+    text-decoration: none;
+}
+
+.Register a:hover {
+    text-decoration: underline;
+}

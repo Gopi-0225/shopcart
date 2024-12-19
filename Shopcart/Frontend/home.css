@@ -1,0 +1,401 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif, sans-serif;
+  }
+  body {
+    background-color: white;
+  }
+  header {
+    background-color: #E5E4E2;
+    border-bottom: 1px solid #ccc;
+  }
+  .shopcart{
+    font-size: 30px;
+    font-weight: 700;
+    color: #000;
+    gap: 0px;
+  }
+  .shopcart span{
+    font-weight: 300;
+    gap: 0px;
+  }
+  .header-container {
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+    padding: 10px 20px;
+  }
+  
+.user-profile {
+  display: flex;
+  align-items: center;        
+  font-size: 18px;           
+  font-weight: bold;          
+  color: #333;                
+  width: fit-content;        
+}
+
+.user-icon {
+  margin-right: 10px;        
+  font-size: 30px;            
+  color: #333;                
+}
+
+  .location {
+    background-color: orange;  
+    padding: 15px;             
+    border-radius: 15px;       
+    display: inline-block;     
+    font-size: 16px;           
+    font-weight: bold;
+    color: black;              
+}
+
+.location i {
+    margin-right: 8px;        
+    font-size: 18px;           
+    font-weight: bold;
+}
+  .search-container {
+    display: flex;
+    align-items: space-between;
+    justify-content: space-between;
+    border: 2px solid #ccc;
+    border-radius: 25px;
+    padding: 5px;
+    background-color: white;
+    width: 50%;
+  }
+  
+  .search-box {
+    width: 50%;
+    border: none;
+    padding: 10px;
+    font-size: 16px;
+    outline: none;
+    border-radius: 15px;
+    flex: 1;
+  }
+  
+  .search-btn {
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 50%;
+  }
+  
+  .search-btn i {
+    color:#E5E4E2 ;
+    font-size: 18px;
+    background-color: none;
+  }
+  
+  nav ul {
+    display: flex;
+    list-style: none;
+    gap: 15px;
+    padding:15px ;
+    background-color: 	#ffd2c2;
+    justify-content: space-between;
+  }
+  nav li {
+    cursor: pointer;
+  }
+  .search-bar {
+    padding: 5px;
+    border: 1px solid #ddd;
+  }
+  
+
+.deals-section {
+    padding: 20px;
+    background-color: #f8f8f8;
+}
+
+
+.header {
+    text-align: left;
+    margin-bottom: 20px;
+}
+
+.header h2 {
+    font-size: 30px;
+    color: #333;
+    font-weight: lighter ;
+    padding-left: 2%;
+}
+.header h3{
+    text-align:center;
+    margin-top: 0px;
+    margin: 0%;
+    padding-right: 5%;
+    font-size: 26px;
+}
+
+.header .highlight {
+    color: #ffb700;
+    font-weight: bold;
+}
+
+.deals-container {
+    display: flex;
+    justify-content:space-evenly;
+    gap: 20px;
+    flex-wrap: wrap;
+    padding-right: 8%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+   
+
+}
+
+
+.product-card1 {
+    background: #fff;
+    border-radius: 8px;
+    width: 250px;
+    text-align: center;
+    transition: transform 0.3s ease-in-out;
+    height:200px;
+    gap:0%;
+}
+
+.product-card1 img {
+    width: 100px;
+    height: 100px;
+    
+}
+
+.product-card1 h4 {
+    font-size: 13px;
+    color: #333;
+    margin: 10px 0;
+    font-weight: bold;
+}
+
+.product-card1 .price {
+    font-size: 14px;
+    color: #666;
+    margin: 5px 0;
+}
+
+.product-card1 .discount {
+    color: red;
+    font-weight: bold;
+    margin-left: 20px;
+    padding: 5px;
+    background-color:#E5E4E2 ;
+}
+
+.product-card1:hover {
+    transform: scale(1.05);
+}
+.top h2 {
+    font-size: 26px;
+    margin-bottom: 20px;
+    color: #222;
+    text-align: start;
+    padding-left: 4%;
+    border-bottom: 2px dashed orange;  
+    padding-bottom: 10px;              
+}
+
+
+.deals {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 0;
+    padding: 0%;
+    gap:35px;
+}
+
+
+.deal-card {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    width: 230px;
+    padding: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    transition: transform 0.3s;
+}
+
+.deal-card:hover {
+    transform: translateY(-5px);
+}
+
+.deal-card img {
+    width: 70%;
+    height: auto;
+    border-bottom: 1px solid #eee;
+}
+
+.deal-card h3 {
+    font-size: 11px;
+    color: #333;
+    margin: 10px 0;
+    font-weight: bold;
+}
+
+.deal-card .price {
+    font-size: 14px;
+    color: #666;
+    gap:10px;
+
+}
+.discount {
+    color: #e74c3c;
+    font-weight: bold;
+    margin: 5px 0;
+}
+
+.price button {
+    background-color: orange;
+    color: black;
+    border: none;
+    padding: 8px 12px;
+    font-size: 12px;
+    border-radius: 8px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+button:hover {
+    background-color: #e67e22;
+}
+.review-container {
+    width: 80%;
+    max-width: 1200px;
+    margin: 20px auto;
+    text-align: left;
+    height:70%;
+}
+
+.product-list {
+    display: flex;
+    gap: 50px;
+}
+
+.product-card2 {
+    display: flex;
+    background: #fff;
+    border: 3px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    padding: 15px;
+    width: 48%;
+}
+
+.product-image {
+    width: 120px;
+    height: auto;
+    margin-right: 15px;
+    object-fit: contain;
+}
+
+.product-details {
+    flex: 1;
+}
+
+h3 {
+    font-size: 25px;
+    margin-bottom: 5px;
+}
+
+p {
+    font-size: 16px;
+    color: #777;
+}
+
+.price {
+    font-size: 18px;
+    color: #000;
+    font-weight: bold;
+    margin: 10px 0;
+}
+
+.stars {
+    display: flex;
+    align-items: center;
+    font-size: 25px;
+    color: orange;
+}
+
+.stars span {
+    margin-right: 3px;
+}
+
+.rating {
+    font-size: 12px;
+    margin-left: 10px;
+    color: #777;
+}
+
+  
+.footer {
+    background-color: #333;
+    color: #fff;
+    padding: 15px 0;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+
+.footer-logo {
+    font-size: 20px;
+}
+
+.footer-logo strong {
+    color: #000;
+}
+
+.footer-logo span {
+    color: #fff;
+}
+
+
+.footer-nav a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 15px;
+    font-size: 14px;
+}
+
+.footer-nav a:hover {
+    text-decoration: underline;
+}
+
+
+.footer-lang {
+    display: flex;
+    align-items: center;
+}
+
+.flag-icon {
+    width: 20px;
+    height: 15px;
+    margin-right: 8px;
+    border-radius: 5px;
+}
+
+.language-select {
+    padding: 5px;
+    border: none;
+    background-color: #444;
+    color: #fff;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
